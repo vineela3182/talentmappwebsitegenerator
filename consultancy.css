@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 3px 2px grey;
+    background-color: brown;
+    color: azure;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.bl5aVQ1KQRCZks1DB2iuRwHaEo?w=250&h=180&c=7&r=0&o=5&pid=1.7");
+}
+.parent{
+    max-width:100%;
+    height:500px;
+    margin:auto;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.child{
+    width:200px;
+    height:350px;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(253, 227, 253);
+    text-align: center;
+}
+h3{
+    color:chocolate;
+    text-align: center;
+}
+
+.img{
+    height:120px;
+}
+.img1{
+    height:120px;
+    border-radius: 10%;
+    position: relative;
+    padding-top: 10px;
+    
+}
+.img2{
+    height:120px;
+    border-radius: 10%;
+    position: relative;
+    padding-top:10px;
+}
+.img3{
+    height:120px;
+    border-radius: 10%;
+    padding-top:10px;
+    position: relative;
+}
+button{
+    color:azure;
+    background-color: darkslateblue;
+}
